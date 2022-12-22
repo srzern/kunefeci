@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tanitim {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #E8F9FD;
+    border: 1px solid #ccdee2;
+    border-radius: 15px;
+}
+
+.tanitim-image>img {
+    width: 500px;
+    border-radius: 10px 0 0 10px;
+}
+
+.tanitim-text {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+
+
+.kunefeler img {
+    height: 150px;
+}
+
+/* YILDIZ */
+.dolu {
+    color: #ffd700;
+}
+
+.bos {
+    color: rgb(139, 135, 135);
+}
+
+/* GURME */
+.gurme-yorumlari {
+    background-color: #79DAE8;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #55b0be;
+    border-radius: 15px;
+
+}
+
+.gurme-yorumlari-baslik {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.gurme-yorumlari .row {
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.gurme {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #E8F9FD;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    width: 500px;
+    padding: 20px;
+    border: 1px solid #ccdee2;
+    border-radius: 15px;
+    margin-top: 10px;
+
+}
+
+.gurme-adi {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.gurme img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.gurme-detay {
+    margin-left: 20px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #b4e0e7;
+    padding: 50px;
+}

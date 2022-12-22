@@ -1,0 +1,45 @@
+.kunefe-detay {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+    display: flex;
+}
+
+.kunefe-resim img {
+    width: 500px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.kunefe-ek-bilgi {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.kunefe-kalori {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+span {
+    display: block;
+}
+
+.kalori-eleman {
+    background-color: #0AA1DD;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    border: 1px solid #0c6a8f;
+    border-radius: 5px;
+    margin: 5px;
+}

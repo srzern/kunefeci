@@ -1,0 +1,15 @@
+.yazar-resim img {
+    border-radius: 25px;
+}
+
+.yazar-adi {
+    text-align: center;
+}
+
+.yazar-imza-tabagi {
+    background-color: #79d9e87a;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+}

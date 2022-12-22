@@ -1,0 +1,31 @@
+.kunefe-listesi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.kunefe {
+    background-color: #2155cd91;
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.resim {
+    width: 200px;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.kunefe a {
+    margin-top: 10px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #2155cd91;
+    padding: 10px;
+    border-radius: 10px;
+}
